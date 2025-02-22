@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Footer() {
   return (
     <footer className="bg-[#aad576]/80 dark:bg-[#283618] text-center py-12 mt-10">
@@ -7,12 +9,12 @@ export default function Footer() {
           <div className="flex flex-col items-center md:items-start">
             <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-200">Quick Links</h3>
             <ul className="mt-4 space-y-4 text-gray-600 dark:text-gray-400">
-              <li><a href="/" className="hover:text-[#FD5F20]">Home</a></li>
-              <li><a href="/about" className="hover:text-[#FD5F20]">About</a></li>
-              <li><a href="/services" className="hover:text-[#FD5F20]">Services</a></li>
-              <li><a href="/portfolio" className="hover:text-[#FD5F20]">Portfolio</a></li>
-              <li><a href="/contact" className="hover:text-[#FD5F20]">Contact</a></li>
-              <li><a href="/blog" className="hover:text-[#FD5F20]">Blog</a></li>
+              <li><Link href="/" className="hover:text-[#FD5F20]">Home</Link></li>
+              <li><Link href="/about" className="hover:text-[#FD5F20]">About</Link></li>
+              <li><Link href="/services" className="hover:text-[#FD5F20]">Services</Link></li>
+              <li><Link href="/portfolio" className="hover:text-[#FD5F20]">Portfolio</Link></li>
+              <li><Link href="/contact" className="hover:text-[#FD5F20]">Contact</Link></li>
+              <li><Link href="/blog" className="hover:text-[#FD5F20]">Blog</Link></li>
             </ul>
           </div>
 
