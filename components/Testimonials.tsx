@@ -28,7 +28,7 @@ export default function Testimonials() {
               <p className="text-lg text-gray-600 dark:text-gray-300">
                 &quot;We were impressed by how Defar understood our vision and transformed it into a functioning, high-performance app. His skills in Flutter and React Native are exceptional.&quot;
               </p>
-              <h3 className="mt-4 text-xl font-semibold text-[#7cb518]">- Emily Brown, Product Manager</h3>
+              <h3 className="mt-4 text-xl font-semibold text-[#7cb518]">- Emily David, Product Manager</h3>
             </div>
           </div>
         </div>
