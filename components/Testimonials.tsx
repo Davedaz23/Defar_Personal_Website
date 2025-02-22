@@ -20,7 +20,7 @@ export default function Testimonials() {
             </div>
             <div className="p-6 bg-white dark:bg-gray-900 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
               <p className="text-lg text-gray-600 dark:text-gray-300">
-                &quot;Defar's expertise in both backend and frontend development helped us build a seamless and scalable system. His approach to problem-solving is insightful, and he delivered beyond our expectations.&quot;
+                &quot;Defar&apos;s expertise in both backend and frontend development helped us build a seamless and scalable system. His approach to problem-solving is insightful, and he delivered beyond our expectations.&quot;
               </p>
               <h3 className="mt-4 text-xl font-semibold text-[#7cb518]">- Michael Johnson, CTO</h3>
             </div>
@@ -35,3 +35,4 @@ export default function Testimonials() {
       </section>
     );
   }
+  
