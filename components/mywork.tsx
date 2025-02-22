@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
+import Image from 'next/image'; // Importing the Image component
 
 export default function MyWork() {
   const [showMore, setShowMore] = useState(false);
@@ -8,31 +9,31 @@ export default function MyWork() {
     {
       title: 'Web Application',
       description: 'A fully responsive web app that allows users to track their daily tasks. Built with React and Tailwind CSS.',
-      imageUrl: 'your-project-screenshot-1.jpg', // Add the correct path to the screenshot
+      imageUrl: '/your-project-screenshot-1.jpg', // Update with actual image path
       link: 'https://link-to-project.com',
     },
     {
       title: 'Mobile App',
       description: 'A mobile application designed for banking transactions using Flutter. Secure and efficient.',
-      imageUrl: 'your-project-screenshot-2.jpg',
+      imageUrl: '/your-project-screenshot-2.jpg',
       link: 'https://link-to-project.com',
     },
     {
       title: 'E-Commerce Platform',
       description: 'A scalable e-commerce platform for selling products online, integrated with payment gateways.',
-      imageUrl: 'your-project-screenshot-3.jpg',
+      imageUrl: '/your-project-screenshot-3.jpg',
       link: 'https://link-to-project.com',
     },
     {
       title: 'Project 4: Task Manager',
       description: 'An efficient task manager app built using React and Node.js, helping teams stay organized.',
-      imageUrl: 'your-project-screenshot-4.jpg',
+      imageUrl: '/your-project-screenshot-4.jpg',
       link: 'https://link-to-project.com',
     },
     {
       title: 'Project 5: Chat Application',
       description: 'A real-time chat application built using WebSocket and React for instant messaging.',
-      imageUrl: 'your-project-screenshot-5.jpg',
+      imageUrl: '/your-project-screenshot-5.jpg',
       link: 'https://link-to-project.com',
     },
   ];
@@ -57,9 +58,11 @@ export default function MyWork() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: index * 0.2 }}
             >
-              <img
+              <Image
                 src={project.imageUrl}
                 alt={project.title}
+                width={500} // Adjust the width according to your design
+                height={300} // Adjust the height according to your design
                 className="w-full h-48 object-cover rounded-md"
               />
               <h3 className="mt-4 text-xl font-semibold text-gray-800 dark:text-gray-200">

@@ -14,13 +14,13 @@ export default function About() {
           About Me
         </motion.h2>
         <motion.p
-          className="mt-4 text-lg text-gray-600 dark:text-gray-300"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-        >
-          Hello! I'm <strong>Defar Gobeze</strong>, a passionate software engineer focused on building innovative and scalable solutions. With years of experience in software development, I thrive on challenges and always strive to write clean, efficient code that drives results.
-        </motion.p>
+  className="mt-4 text-lg text-gray-600 dark:text-gray-300"
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8 }}
+>
+  Hello! I&apos;m <strong>Defar Gobeze</strong>, a passionate software engineer focused on building innovative and scalable solutions. With years of experience in software development, I thrive on challenges and always strive to write clean, efficient code that drives results.
+</motion.p>
 
         {/* My Journey Section */}
         <div className="mt-12">
@@ -33,13 +33,13 @@ export default function About() {
             My Journey
           </motion.h3>
           <motion.p
-            className="mt-4 text-lg text-gray-600 dark:text-gray-300"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-          >
-            My journey as a software engineer began with a deep curiosity for how technology shapes the world. Over the years, I've worked on a variety of projects ranging from full-stack development to mobile apps, always focusing on delivering high-quality user experiences. I have experience with technologies like React, Tailwind CSS, Flutter, and .NET, but my passion lies in continuously learning and adapting to new tools and frameworks.
-          </motion.p>
+  className="mt-4 text-lg text-gray-600 dark:text-gray-300"
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8 }}
+>
+  My journey as a software engineer began with a deep curiosity for how technology shapes the world. Over the years, I&apos;ve worked on a variety of projects ranging from full-stack development to mobile apps, always focusing on delivering high-quality user experiences. I have experience with technologies like React, Tailwind CSS, Flutter, and .NET, but my passion lies in continuously learning and adapting to new tools and frameworks.
+</motion.p>
         </div>
 
         {/* Expertise Section */}

@@ -4,7 +4,7 @@ export default function Contact() {
       <div className="max-w-4xl mx-auto px-6 text-center">
         <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-200">Get in Touch</h2>
         <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
-          Whether you're looking to start a new project, need expert advice, or just want to connect, I'd love to hear from you. Let’s bring your ideas to life together.
+          Whether you&apos;re looking to start a new project, need expert advice, or just want to connect, I&apos;d love to hear from you. Let’s bring your ideas to life together.
         </p>
         <div className="mt-6">
           <a

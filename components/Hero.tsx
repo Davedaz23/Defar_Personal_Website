@@ -21,13 +21,13 @@ export default function Hero() {
           className="text-center md:text-left md:w-1/2"
         >
           <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-            Hello, I'm <span className="text-[#7cb518]">Defar Gobeze Wondafrash</span>
+            Hello, I&apos;m <span className="text-[#7cb518]">Defar Gobeze Wondafrash</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-700 dark:text-gray-200 mt-4">
             🚀 Senior Software Engineer | Fintech & Banking Specialist | Freelancer
           </p>
           <p className="mt-4 text-gray-600 dark:text-gray-300">
-            I craft high-performance, secure, and scalable software solutions for the banking industry. Let's build something amazing together!
+            I craft high-performance, secure, and scalable software solutions for the banking industry. Let&apos;s build something amazing together!
           </p>
           
           {/* CTA Buttons */}
